@@ -82,6 +82,9 @@
     line-height: 38px;
     letter-spacing: 3%;
     text-align: center;
+    @media (max-width:387px) {
+            padding: 0 0 0 0;
+        }
     @media (max-width:768px) {
         padding: 0 40px 0 40px;
     }
@@ -189,6 +192,11 @@
     height: 15px;
     background-image: url(../images/Vector.svg);
     left: 40px;
+    @media (max-width:332px) {
+        position: relative;
+        left: -200px;
+        bottom: 17px;
+    }
 }
 
 .modal__input--checkbox:checked+.checkbox {

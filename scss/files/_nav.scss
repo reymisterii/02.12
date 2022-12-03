@@ -51,7 +51,7 @@
             height: 4px;
             background-size: contain;
             margin-top: 28px;
-            background-image: url(../../images/line.png);
+            background-image: url(../images/line.png);
             display: block;
         }
         &__link--activ-next::after {
@@ -59,7 +59,7 @@
             height: 4px;
             background-size: contain;
             margin-top: 28px;
-            background-image: url(../../images/line-next.png);
+            background-image: url(../images/line-next.png);
             display: block;
         }
     }
